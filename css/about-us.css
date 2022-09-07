@@ -1,0 +1,168 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: url(../images/about2.jpg);
+    background-size: 1520px 700px;
+}
+.jumbotron {
+    background: #ff5722c7;
+    color: #FFF;
+    border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+    padding-bottom: 24px; }
+    .jumbotron small {
+    color: #FFF;
+}
+    .h1 small {
+    font-size: 24px;
+}
+form.details {
+    position: relative;
+    top: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+}
+.logo{
+    padding: 8px 22px;
+    height: 80px;
+    float: left;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 20px;
+    border-right: 1px solid white;
+}
+nav ul li a:hover{
+    color: red;
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+}
+nav ul li:last-child {
+    border: 0;
+}
+
+
+nav ul li a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.aboutus-section {
+    padding: 90px 0;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: yellow;
+}
+.aboutus-title::after {
+    background: #fdb801 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+
+a:hover, a:active {
+    color: red;
+    text-decoration: none;
+    outline: 0;
+}
+.aboutus-more {
+    border: 1px solid red;
+    border-radius: 25px;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.feature .feature-box .iconset::after {
+    background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: yellow;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: yellow;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    color : #f4b841;
+    padding:0px;
+    font-size:40px;
+    border: 1px solid #fdb801;
+    border-radius: 100px;
+    color: #fdb801;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+img.img-fluid.rounded {
+    width: 900px;
+    height: 300px;
+}

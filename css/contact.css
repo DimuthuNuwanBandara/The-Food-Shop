@@ -1,0 +1,64 @@
+.jumbotron {
+	background: none;
+	color: black;
+	border-radius: 0px;
+}
+.jumbotron-sm {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.jumbotron small {
+	color: black;
+}
+	.h1 small {
+	font-size: 24px;
+}
+form.details {
+    position: relative;
+    top: 50px;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url(../images/contact.jpg);
+	background-size: 1520px 555px;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background: rgba(0,0,0,0.5);
+}
+.logo{
+	padding: 8px 22px;
+	height: 80px;
+	float: left;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+a:hover, a:active {
+    color: red;
+    text-decoration: none;
+    outline: 0;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	padding: 0 20px;
+	border-right: 1px solid white;
+}
+nav ul li a:hover{
+	color: red;
+	background: rgba(0,0,0,0.7);
+	border-radius: 6px;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
